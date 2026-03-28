@@ -4,7 +4,7 @@ I got tired of manually checking every supermarket app to find the best deals. S
 
 It scrapes the KaufDa brochure API, stores everything in a database, and gives you a clean interface where you can either browse deals by store or search for a specific product across **all stores at once** — so you immediately know where to buy it cheapest.
 
-![screenshot placeholder]<img width="1882" height="2930" alt="localhost_5173_ (1)" src="https://github.com/user-attachments/assets/69ffb87b-2952-4de5-a879-d9cfa9f7fe88" />
+<img width="1882" height="2930" alt="localhost_5173_ (1)" src="https://github.com/user-attachments/assets/69ffb87b-2952-4de5-a879-d9cfa9f7fe88" />
 
 ---
 
