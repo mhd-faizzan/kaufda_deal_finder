@@ -1,4 +1,4 @@
-# KaufDa Deal Finder 🛒
+# KaufDa Deal Finder 
 
 I got tired of manually checking every supermarket app to find the best deals. So I built this instead.
 
