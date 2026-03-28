@@ -158,13 +158,4 @@ kaufda/
 
 ---
 
-## things i'd add next
-
-- price history charts — track how a product's price changes week to week
-- email/push notifications when something on your watchlist drops below a price
-- auto-discovery of new brochure UUIDs so you don't have to update them manually
-- mobile app version
-
----
-
 built this as a portfolio project to practice web scraping, REST APIs, and full-stack development. the whole thing from idea to working app took a few days of on-and-off coding.
