@@ -1,0 +1,17 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# node
+node_modules/
+dist/
+.DS_Store
+
+# env files — never commit these, they contain passwords
+.env
+.env.local
+.env.production
