@@ -4,7 +4,7 @@ on:
   schedule:
     # runs every monday at 7am — adjust this to whatever works for you
     #- cron: "0 7 * * 1"
-  workflow_dispatch:  # lets you trigger it manually from GitHub too
+  #workflow_dispatch:  # lets you trigger it manually from GitHub too
 
 jobs:
   scrape:
