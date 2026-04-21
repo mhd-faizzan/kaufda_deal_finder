@@ -5,7 +5,7 @@ import os
 import sys
 
 
-LAT = os.getenv("LAT", "51.8368113")   # your city coordinates
+LAT = os.getenv("LAT", "51.8368113")   #city coordinates
 LNG = os.getenv("LNG", "10.7844266")
 
 DB = {
@@ -16,8 +16,6 @@ DB = {
 }
 
 # these UUIDs come from the KaufDa backend API
-# to find them: open kaufda.de → DevTools → Network tab
-# → click a store brochure → look for /v1/brochures/{UUID}/pages
 STORE_BROCHURES = {
     "Lidl":     "00bcb384-5d81-4a51-9e58-c74cbf8ad7b4",
     "Rewe":     "a3d4dbb4-1d82-4789-adb8-ac625c6fbd71",
