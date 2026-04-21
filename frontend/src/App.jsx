@@ -16,7 +16,7 @@ const STORE_COLORS = {
 }
 
 
-// ── small reusable components ────────────────────────────────────────────────
+// small reusable components 
 
 function DiscountBadge({ pct }) {
   if (!pct || pct <= 0) return null
@@ -191,7 +191,7 @@ function StatCard({ label, value }) {
 }
 
 
-// ── main app ─────────────────────────────────────────────────────────────────
+// main app 
 
 export default function App() {
   const [activeStore,    setActiveStore]    = useState(null)
