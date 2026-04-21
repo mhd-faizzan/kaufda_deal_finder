@@ -1,31 +1,31 @@
-name: weekly scrape
+#name: weekly scrape
 
-on:
-  schedule:
+#on:
+#  schedule:
     # runs every monday at 7am — adjust this to whatever works for you
     #- cron: "0 7 * * 1"
   #workflow_dispatch:  # lets you trigger it manually from GitHub too
 
-jobs:
-  scrape:
-    runs-on: ubuntu-latest
+#jobs:
+#  scrape:
+#    runs-on: ubuntu-latest
 
-    steps:
-      - name: checkout code
-        uses: actions/checkout@v4
+#    steps:
+#      - name: checkout code
+#        uses: actions/checkout@v4
 
-      - name: setup python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+#      - name: setup python
+#        uses: actions/setup-python@v5
+#        with:
+#          python-version: "3.11"
 
-      - name: install dependencies
-        run: pip install requests mysql-connector-python
+#      - name: install dependencies
+#        run: pip install requests mysql-connector-python
 
-      - name: run scraper
-        run: python scraper/scraper.py
-        env:
-          DB_HOST:     ${{ secrets.DB_HOST }}
-          DB_USER:     ${{ secrets.DB_USER }}
-          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-          DB_NAME:     ${{ secrets.DB_NAME }}
+#      - name: run scraper
+#        run: python scraper/scraper.py
+#        env:
+#          DB_HOST:     ${{ secrets.DB_HOST }}
+#          DB_USER:     ${{ secrets.DB_USER }}
+#          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+#          DB_NAME:     ${{ secrets.DB_NAME }}
